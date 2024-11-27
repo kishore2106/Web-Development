@@ -10,3 +10,6 @@ Lesson1 - HTML (Hyper Text Markup Language) -> https://developer.mozilla.org/en-
 7. Anchor Elements <a href=""></a>
 8. Image Elements <img src="" />
 9. Birthday invite project with the above learnt elemets
+10. Absolute and Relative Path
+11. Web Pages
+12. HTML Protfolio Project
