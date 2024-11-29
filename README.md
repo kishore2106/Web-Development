@@ -13,3 +13,13 @@ The Complete 2024 Web Development Bootcamp
 10. Absolute and Relative Path
 11. Web Pages
 12. HTML Protfolio Project
+
+# Lesson2 - CSS (Cascading Style Sheet)
+1. How to add CSS
+2. Selectors
+    1. Element Selector
+    2. Class Selector (.)
+    3. ID Selector (#)
+    4. Attribute Selector (element[attr])
+    5. Universal Selector (*)
+3. Colour Vocab Project
