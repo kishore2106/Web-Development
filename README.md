@@ -32,3 +32,4 @@ The Complete 2024 Web Development Bootcamp
     2. Font (size, weight, ) #1px->1/96th inch (0.26mm),1pt->1/72nd inch (0.35mm), 1em (100% of parent) & 1rem (100% of root)
     3. Family (fonts.google.com)
     4. Text Align
+
