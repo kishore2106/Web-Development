@@ -35,3 +35,21 @@ The Complete 2024 Web Development Bootcamp
     5. Margin
     6. Padding
     7. Border (border-width, border-top)
+9. CSS Rules
+    1. Position
+    2. Specificity (id>attributre>class>element)
+    3. Type (inline>internal>external)
+    4. Importance (!important)
+10. Combining CSS Selectors
+    1. Group (selector1, selector2,...)
+    2. child (parent_selector>child_selector)
+    3. Descendant (selector selector)
+    4. Chaining (Apply where ALL selectors are ture)
+    5. combining combiners
+11. Positioning
+    1. Relative
+    2. Absolute (Position relative to nearest positioned ancestor or top left corner of webpage) 
+    3. Fixed
+    4. Static (Default)
+12. CSS Flag Project
+
