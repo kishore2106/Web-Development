@@ -52,3 +52,4 @@ The Complete 2024 Web Development Bootcamp
     3. Fixed
     4. Static (Default)
 12. CSS Flag Project
+
