@@ -52,4 +52,16 @@ The Complete 2024 Web Development Bootcamp
     3. Fixed
     4. Static (Default)
 12. CSS Flag Project
-
+13. CSS Display
+    1. Inline (We can't set the size i.e width & height)
+    2. Block (Default)
+    3. Inline-Block (We can set width and height)
+    4. None (element will disappear)
+14. CSS Float
+15. Responsiveness
+    1. Media Queries
+    2. CSS Grid (2D layout)
+    3. Flexbox (1D layout)
+    4. External framework like Bootstrap
+16. Media Query
+17. Web Design Agency Project
