@@ -65,3 +65,17 @@ The Complete 2024 Web Development Bootcamp
     4. External framework like Bootstrap
 16. Media Query
 17. Web Design Agency Project
+18. Display Flex
+19. Flex Direction
+    1. flex-direction (row[default], column)
+    2. Main-axis/Cross-axis
+    3. flex-basis (height/width based on the main/cross-axis) is set on the child element not on the container itself
+20. Flex Layout (cheet-sheet: https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    1. order
+    1. Align (align-items: flex-<start/end/center/base-line/stretch>) used to set cross-axis, height should be set in container eg. height: 70vh(viewport height)
+        1. align-self for a single item set in child.
+    2. Justify (justify-content: flex-<start/end/center/space-between>) this propery is to the container
+    3. Wrap (flex-wrap: nowrap[default]) move all the element that doesnt have space in the same row/column to next column/row
+    4. align-content: it works similar to align-items but only when flex-wrap is set to wrap.
+21. Flexbox Froggy (https://appbrewery.github.io/flexboxfroggy/)
+
