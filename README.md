@@ -78,4 +78,7 @@ The Complete 2024 Web Development Bootcamp
     3. Wrap (flex-wrap: nowrap[default]) move all the element that doesnt have space in the same row/column to next column/row
     4. align-content: it works similar to align-items but only when flex-wrap is set to wrap.
 21. Flexbox Froggy (https://appbrewery.github.io/flexboxfroggy/)
+22. Flexbox sizing
+    1. Shrinking (Content width<Width<flex-basis<max-width/min-width) max width having all the content in a line and min width is the largest word in the content.
+    2. Growing (default flex-grow:0, flex-shrink:1) shorthand for flex-<grow, shrink, basis> flex: 1 1 0px/flex: 1; (grow, shrink, basis).
 
