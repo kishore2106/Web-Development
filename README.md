@@ -81,4 +81,8 @@ The Complete 2024 Web Development Bootcamp
 22. Flexbox sizing
     1. Shrinking (Content width<Width<flex-basis<max-width/min-width) max width having all the content in a line and min width is the largest word in the content.
     2. Growing (default flex-grow:0, flex-shrink:1) shorthand for flex-<grow, shrink, basis> flex: 1 1 0px/flex: 1; (grow, shrink, basis).
-
+23. Flexbox Pricing Table Project
+24. CSS Grid
+    1. Grid Sizing (short hand for grid-template-rows and gir-template-columns is grid-template: rows / columns) [https://appbrewery.github.io/grid-sizing/]
+    2. Grid Item Placement (grid-column/row-start and gird-column/row-end -> grid-column, grid-row)
+25. Mondrian Project.
