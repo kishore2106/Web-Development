@@ -86,3 +86,6 @@ The Complete 2024 Web Development Bootcamp
     1. Grid Sizing (short hand for grid-template-rows and gir-template-columns is grid-template: rows / columns) [https://appbrewery.github.io/grid-sizing/]
     2. Grid Item Placement (grid-column/row-start and gird-column/row-end -> grid-column, grid-row)
 25. Mondrian Project.
+26. BootStrap
+    1. Bootstrap Intro (https://getbootstrap.com/)
+    2. Bootstrap Layout (12 column layout system)
