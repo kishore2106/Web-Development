@@ -90,3 +90,4 @@ The Complete 2024 Web Development Bootcamp
     1. Bootstrap Intro (https://getbootstrap.com/)
     2. Bootstrap Layout (12 column layout system)
     3. Bootstrap Component
+27. TinDog Project
