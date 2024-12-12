@@ -91,3 +91,32 @@ The Complete 2024 Web Development Bootcamp
     2. Bootstrap Layout (12 column layout system)
     3. Bootstrap Component
 27. TinDog Project
+
+# Lesson3 - Web Design
+1. Introduction to Web Design
+2. Web Design Principles
+    1. Colour Theory
+    2. User Interface Design
+    3. Typography
+    4. User Experience Design
+3. Colour Theory
+    1. Moods [(Red-Love,Energy,Intensity)(Yellow-Joy,Intellect,Attention)(Green-Freshness,Safety,Growth)(Blue-Stability,Trust,Serenity)(Purple-Royalty,Wealth,Femininty)]
+    2. Combining Colours (https://colorhunt.co/) (https://color.adobe.com/create/color-wheel)
+        1. Analogous Colours (adjacent the colour wheel)
+        2. Complementary Colours (opp cololurs in the colour wheel) dont use for text and its Bg, best for logos and icons.
+4. Typography
+    1. Combining
+        1. Similar (Mood, Time Era)
+        2. Contrast (Serif-ness, Weights) 
+5. User Interface Design
+    1. Hierarchy (colour, Size)
+    2. Layout (40-60 chars per line)
+    3. Alignment
+    4. White Space
+    5. Audience
+6. User Experience Design
+    1. Design Simple
+    2. Consistency
+    3. Reading Patterns (Use the F-layout or Z-layout)
+    4. All Platform Design
+    5. Don't Use Your Powers for Evil (Dark Patterns)
