@@ -142,3 +142,7 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 13. Comparators and Equality
 14. Collections - Arrays
 15. Loop - while loop & for loop
+16. DOM (Document Object Model)
+17. DOM Manipulation
+    1. Properties (innerHTML, style, firstChild)
+    2. Methods (click(), appendChild(), setAttribiute())
