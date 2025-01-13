@@ -122,3 +122,39 @@ The Complete 2024 Web Development Bootcamp
     3. Reading Patterns (Use the F-layout or Z-layout)
     4. All Platform Design
     5. Don't Use Your Powers for Evil (Dark Patterns)
+
+# Lesson4 - JavaScript 
+Important links - (https://github.com/rwaldron/idiomatic.js)
+1. Data Types
+    1. Primitive Data Types (number, string, boolean, null, undefined)
+    2. Object Data Types (object, array)
+2. Variables
+3. Naming Convention
+4. String Concatenation
+5. String Lengths and Retrieving number of chars
+6. Slicing and Extracting Parts of a String
+7. Chaining Casing
+8. Arithmetic and Modulo Operators
+9. Increement and Decreement Operators
+10. Functions (parameters and arguments)
+11. Random Number Generation
+12. Control Statements
+13. Comparators and Equality
+14. Collections - Arrays
+15. Loop - while loop & for loop
+16. DOM (Document Object Model)
+17. DOM Manipulation
+    1. Properties (innerHTML, style, firstChild)
+    2. Methods (click(), appendChild(), setAttribiute())
+
+# Lesson5 - jQuery
+1. Introduction (CDN)[https://jquery.com/].
+2. How to Incorporate ["https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"].
+3. Minification [https://www.minifier.org/].
+4. Selecting Elements with jQuery.
+5. Manipulating Styles with jQuery.
+6. Manipulating Text with jQuery.
+7. Manipulating Attributes with jQuery.
+8. Adding Event Listeners with jQuery.
+9. Adding and Removing Elements with jQuery [before, after, prepend, append].
+10. Websites Animations with jQuery. [https://api.jquery.com/category/effects/]
