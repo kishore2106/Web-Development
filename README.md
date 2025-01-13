@@ -146,3 +146,15 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 17. DOM Manipulation
     1. Properties (innerHTML, style, firstChild)
     2. Methods (click(), appendChild(), setAttribiute())
+
+# Lesson5 - jQuery
+1. Introduction (CDN)[https://jquery.com/].
+2. How to Incorporate ["https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"].
+3. Minification [https://www.minifier.org/].
+4. Selecting Elements with jQuery.
+5. Manipulating Styles with jQuery.
+6. Manipulating Text with jQuery.
+7. Manipulating Attributes with jQuery.
+8. Adding Event Listeners with jQuery.
+9. Adding and Removing Elements with jQuery.
+10. Websites Animations with jQuery.
