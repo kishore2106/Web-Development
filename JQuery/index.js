@@ -32,8 +32,24 @@ $("h1").addClass("heading margin-5");
 //     $("h1").css("color","purple");
 // });
 
-// Adding and Removing Elements with jQuery
-$("h1").before("<button>before</button>");
-$("h1").after("<button>after</button>");
-$("h1").prepend("<button>prepend</button>");
-$("h1").append("<button>append</button>");
+// // Adding and Removing Elements with jQuery
+// $("h1").before("<button>before</button>");
+// $("h1").after("<button>after</button>");
+// $("h1").prepend("<button>prepend</button>");
+// $("h1").append("<button>append</button>");
+
+// Websites Animations with jQuery
+$("button").click(function (){
+        // $("h1").hide();
+        // $("h1").show();
+        // $("h1").fadeOut();
+        // $("h1").fadeIn();
+        // $("h1").fadeToggle();
+        // $("h1").toggle();
+        // $("h1").slideDown();
+        // $("h1").slideUp();
+        // $("h1").slideToggele();
+        // $("h1").animate({opacity: 0.5});
+        $("h1").css("color","purple");
+        $("h1").slideUp().slideDown().animate({opacity: 0.5});
+    });

@@ -157,4 +157,4 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 7. Manipulating Attributes with jQuery.
 8. Adding Event Listeners with jQuery.
 9. Adding and Removing Elements with jQuery [before, after, prepend, append].
-10. Websites Animations with jQuery.
+10. Websites Animations with jQuery. [https://api.jquery.com/category/effects/]
