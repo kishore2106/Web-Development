@@ -17,17 +17,23 @@ $("h1").addClass("heading margin-5");
 // $("a").attr("href","https://www.google.com");
 // console.log($("img").attr("src"));
 
-// Adding Event Listeners with jQuery
-$("button").click(function (){
-    // $("h1").slideUp(1000);
-    $("h1").css("color","purple");
-});
+// // Adding Event Listeners with jQuery
+// $("button").click(function (){
+//     // $("h1").slideUp(1000);
+//     $("h1").css("color","purple");
+// });
 
-$("input").keypress(function (event){
-    console.log(event.key);
-    $("h1").text(event.key);
-});
+// $("input").keypress(function (event){
+//     console.log(event.key);
+//     $("h1").text(event.key);
+// });
 
-$("h1").on("mouseover", function (){
-    $("h1").css("color","purple");
-});
+// $("h1").on("mouseover", function (){
+//     $("h1").css("color","purple");
+// });
+
+// Adding and Removing Elements with jQuery
+$("h1").before("<button>before</button>");
+$("h1").after("<button>after</button>");
+$("h1").prepend("<button>prepend</button>");
+$("h1").append("<button>append</button>");
