@@ -6,7 +6,9 @@
 
 $("h1").addClass("heading margin-5");
 
-$("h1").text("Good bye");
+// $("h1").text("Good bye");
 
 // $("button").text("Dont click me");
-$("button").html("<em>Dont click me<em/>");
+// $("button").html("<em>Dont click me<em/>");
+$("a").attr("href","https://www.google.com");
+console.log($("img").attr("src"));
