@@ -158,3 +158,18 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 8. Adding Event Listeners with jQuery.
 9. Adding and Removing Elements with jQuery [before, after, prepend, append].
 10. Websites Animations with jQuery. [https://api.jquery.com/category/effects/]
+
+# Lesson6 - NodeJS
+1. Introduction.
+2. Installation.
+3. Using NodeJS.
+4. How to Use the Native Node Modules[https://nodejs.org/docs/latest/api/].
+5. The NPM Package Manager and Installing External Node Modules.
+6. OR Code Generator.
+
+# Lesson6 - ExpressJS with NodeJS
+1. Introduction.
+2. Creating Our First Server with Express.
+3. HTTP Requests.
+4. Postman.
+5. Introduction to Middleware.
