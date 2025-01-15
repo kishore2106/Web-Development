@@ -170,6 +170,13 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 # Lesson6 - ExpressJS with NodeJS
 1. Introduction.
 2. Creating Our First Server with Express.
-3. HTTP Requests.
-4. Postman.
-5. Introduction to Middleware.
+3. Steps to create Express Server.
+    1. Create directory.
+    2. Create index.js file.
+    3. Initialise NPM.
+    4. Install the Express Package.
+    5. Write Server application in index.js.
+    6. Start Server.
+4. HTTP Requests.
+5. Postman.
+6. Introduction to Middleware.
