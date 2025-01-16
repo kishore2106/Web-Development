@@ -180,6 +180,10 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 4. HTTP Requests.
 5. Postman.
 6. Introduction to Middleware.
+    1. Pre-process. (body-parser)
+    2. Logger. (morgan)
+    3. Authenticator.
+    4. Error Handler.
 7. HTTP Response Status Codes [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status].
     1. Informational responses (100-199)
     2. Successful responses (200-299)
