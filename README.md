@@ -167,7 +167,7 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 5. The NPM Package Manager and Installing External Node Modules.
 6. OR Code Generator.
 
-# Lesson6 - ExpressJS with NodeJS
+# Lesson7 - ExpressJS with NodeJS
 1. Introduction.
 2. Creating Our First Server with Express.
 3. Steps to create Express Server.
