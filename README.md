@@ -191,3 +191,13 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     4. Client error responses (400-499)
     5. Server error responses (500-599)
 8. Secrets Access Project.
+
+# Lesson8 - Embedded JavaScript
+1. Introduction.
+2. EJS Tags.
+    1. <%= variable  %> -> JS Output
+    2. <% console.log("hello") %> -> JS Excecute
+    3. <%- <h1>Hello<h1> %> -> Render HTML
+    4. <%% %%> Show <% or %> (escape characters)
+    5. <%# This is a comment%> -> Stop Excecution
+    6. <%- include("header.ejs")%> -> Insert another EJS file
