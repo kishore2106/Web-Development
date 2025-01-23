@@ -201,3 +201,6 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     4. <%% %%> Show <% or %> (escape characters)
     5. <%# This is a comment%> -> Stop Excecution
     6. <%- include("header.ejs")%> -> Insert another EJS file
+3. Passing Data to EJS Templates.
+4. EJS Patials and Layouts.
+5. Band Generator Project.
