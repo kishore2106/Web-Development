@@ -204,3 +204,21 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 3. Passing Data to EJS Templates.
 4. EJS Patials and Layouts.
 5. Band Generator Project.
+
+# Lesson9 - Git, Github and Version Control
+1. Introduction to Version Control and Git.
+2. Version Control Using Git and the Command Line.
+3. GitHub and Git Repositories.
+4. Gitignore.
+5. Cloning.
+6. Branching and Merging.
+7. Optional Git Challenge. [https://learngitbranching.js.org/]
+8. Forking and Pull Requests.
+
+# Lesson10 - Application Programming Interface (API)
+1. Introduction to APIs.
+2. Structuring API Requests.
+3. What is JSON? [JSON-Viewer: https://jsonviewer.stack.hu/]
+4. Making Server-Side API Requests with Axios.
+5. API Authentication.
+6. REST APIs.
