@@ -2,10 +2,10 @@ import express from "express";
 import axios from "axios";
 
 const app = express();
-const port = 3001;
-const API_URL = "https://secrets-api.appbrewery.com/";
+const port = 3000;
+const API_URL = "https://secrets-api.appbrewery.com";
 
-//TODO 1: Fill in your values for the 3 types of auth.
+// TODO: Replace the values below with your own before running this file.
 const yourUsername = "kishore021";
 const yourPassword = "123";
 const yourAPIKey = "1c85fd98-0519-4034-857a-d13f5666cff4";
@@ -16,69 +16,53 @@ app.get("/", (req, res) => {
 });
 
 app.get("/noAuth", async (req, res) => {
-  //TODO 2: Use axios to hit up the /random endpoint
-  const response = await axios.get(`${API_URL}random`);
-  console.log(response.data);
-  var responseString = JSON.stringify(response.data);
-  //The data you get back should be sent to the ejs file as "content"
-  res.render("index.ejs", {result: responseString});
-  //Hint: make sure you use JSON.stringify to turn the JS object from axios into a string.
+  try {
+    const result = await axios.get(API_URL + "/random");
+    res.render("index.ejs", { content: JSON.stringify(result.data) });
+  } catch (error) {
+    res.status(404).send(error.message);
+  }
 });
 
 app.get("/basicAuth", async (req, res) => {
-  //TODO 3: Write your code here to hit up the /all endpoint
-  //Specify that you only want the secrets from page 2
-  //HINT: This is how you can use axios to do basic auth:
-  // https://stackoverflow.com/a/74632908
-  /*
-   axios.get(URL, {
+  try {
+    const result = await axios.get(API_URL + "/all?page=2", {
       auth: {
-        username: "abc",
-        password: "123",
+        username: yourUsername,
+        password: yourPassword,
       },
     });
-  */
-  const response = await axios.get(`${API_URL}all?_page=2`, {
-    auth: {
-      username: yourUsername,
-      password: yourPassword,
-    }
-  });
-  console.log(response.data);
-  const result = JSON.stringify(response.data);
-  res.render("index.ejs", {result: result});
+    res.render("index.ejs", { content: JSON.stringify(result.data) });
+  } catch (error) {
+    res.status(404).send(error.message);
+  }
 });
 
 app.get("/apiKey", async (req, res) => {
-  //TODO 4: Write your code here to hit up the /filter endpoint
-  const response = await axios.get(`${API_URL}filter?score=5&apiKey=${yourAPIKey}`);
-  console.log("response" + JSON.stringify(response.data));
-  const result = JSON.stringify(response.data);
-  res.render("index.ejs", {result: result});
-  //Filter for all secrets with an embarassment score of 5 or greater
-  //HINT: You need to provide a query parameter of apiKey in the request.
+  try {
+    const result = await axios.get(API_URL + "/filter", {
+      params: {
+        score: 5,
+        apiKey: yourAPIKey,
+      },
+    });
+    res.render("index.ejs", { content: JSON.stringify(result.data) });
+  } catch (error) {
+    res.status(404).send(error.message);
+  }
 });
 
+const config = {
+  headers: { Authorization: `Bearer ${yourBearerToken}` },
+};
+
 app.get("/bearerToken", async (req, res) => {
-  //TODO 5: Write your code here to hit up the /secrets/{id} endpoint
-  //and get the secret with id of 42
-  //HINT: This is how you can use axios to do bearer token auth:
-  // https://stackoverflow.com/a/52645402
-  /*
-  axios.get(URL, {
-    headers: { 
-      Authorization: `Bearer <YOUR TOKEN HERE>` 
-    },
-  });
-  */
- const id = 42;
- const response = await axios.get(`${API_URL}secrets/${id}`,{
-  headers: {
-    Authorization: `Bearer ${yourBearerToken}`,
+  try {
+    const result = await axios.get(API_URL + "/secrets/2", config);
+    res.render("index.ejs", { content: JSON.stringify(result.data) });
+  } catch (error) {
+    res.status(404).send(error.message);
   }
- });
- const result = JSON.stringify(response.data);
- res.render("index.ejs", {result: result});
 });
 
 app.listen(port, () => {
