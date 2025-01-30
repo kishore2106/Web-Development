@@ -226,3 +226,4 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     3. API Key Authorization.
     4. Token/Bearer Based Authentication.
 6. REST APIs.
+7. Secrets Project.
