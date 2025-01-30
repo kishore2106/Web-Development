@@ -209,7 +209,7 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 1. Introduction to Version Control and Git.
 2. Version Control Using Git and the Command Line.
 3. GitHub and Git Repositories.
-4. Gitignore.
+4. Gitignore. [https://github.com/github/gitignore]
 5. Cloning.
 6. Branching and Merging.
 7. Optional Git Challenge. [https://learngitbranching.js.org/]
@@ -221,4 +221,8 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 3. What is JSON? [JSON-Viewer: https://jsonviewer.stack.hu/]
 4. Making Server-Side API Requests with Axios.
 5. API Authentication.
+    1. No Authentication.
+    2. Basic Authentication.
+    3. API Key Authorization.
+    4. Token/Bearer Based Authentication.
 6. REST APIs.
