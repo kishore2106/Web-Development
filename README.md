@@ -236,7 +236,7 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
         3. Client and Servers in RESTful are completely seperate.
         4. Stateless.
         5. Resource-Based (URI/URL).
-2. Creating GET Routers.
+2. Creating GET Routes.
 3. Creating POST, PUT and PATCH Routes.
 4. Creating the DELETE Route.
 5. Build your own API for a Blog.

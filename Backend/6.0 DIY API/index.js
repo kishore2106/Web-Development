@@ -40,14 +40,81 @@ app.get("/filter", (req, res) => {
 });
 
 //4. POST a new joke
+app.post("/jokes", (req, res) => {
+  try {
+    const { text, type } = req.body;
+    
+    if (!text || !type) {
+      return res.status(400).json({ message: "Joke text and type are required." });
+    }
+
+    const id = jokes.length + 1;
+    const newJoke = { id, joke: text, jokeType: type };
+    jokes.push(newJoke);
+
+    res.status(201).json(newJoke);
+  } catch (error) {
+    console.error("Error creating joke:", error);
+    res.status(500).json({ message: "Error creating joke" });
+  }
+});
 
 //5. PUT a joke
+app.put("/jokes/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  console.log(req.body);
+  const updatedJoke = jokes.find((joke) => joke.id === id);
+  if (updatedJoke) {
+    updatedJoke.jokeText = req.body.text;
+    updatedJoke.jokeType = req.body.type;
+    res.json(updatedJoke);
+  } else {
+    res.status(404).json({ message: "Joke not found" });
+  }
+});
 
 //6. PATCH a joke
+app.patch("/jokes/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const updatedJoke = jokes.find((joke) => joke.id === id);
+  if (updatedJoke) {
+    if (req.body.text) {
+      updatedJoke.jokeText = req.body.text;
+    }
+    if (req.body.type) {
+      updatedJoke.jokeType = req.body.type;
+    }
+    res.json(updatedJoke);
+  } else {
+    res.status(404).json({ message: "Joke not found" });
+  }
+});
 
 //7. DELETE Specific joke
+app.delete("/jokes/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const index = jokes.findIndex((joke) => joke.id === id);
+  if (index !== -1) {
+    jokes.splice(index, 1);
+    res.sendStatus(200);
+  } else {
+      var message = `Joke with id: ${id} not found. No jokes were deleted.`;
+      res.json({error: message });
+  }
+});
 
 //8. DELETE All jokes
+app.delete("/all", (req, res) => {
+  const userKey = req.query.key;
+  if (userKey === masterKey) {
+    jokes = [];
+    res.sendStatus(200);
+  } else {
+    res
+      .status(404)
+      .json({ error: `You are not authorised to perform this action.` });
+  }
+});
 
 app.listen(port, () => {
   console.log(`Successfully started server on port ${port}.`);
