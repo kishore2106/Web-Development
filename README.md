@@ -227,3 +227,16 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     4. Token/Bearer Based Authentication.
 6. REST APIs.
 7. Secrets Project.
+
+# Lesson11 - Build Your Own Application Programming Interface (API)
+1. Building your own APIs.
+    1. What makes API RESTful?
+        1. It uses standard HTTP methods.
+        2. It should have standard data format that it respond with (JSON/XML).
+        3. Client and Servers in RESTful are completely seperate.
+        4. Stateless.
+        5. Resource-Based (URI/URL).
+2. Creating GET Routes.
+3. Creating POST, PUT and PATCH Routes.
+4. Creating the DELETE Route.
+5. Build your own API for a Blog.
