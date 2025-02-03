@@ -240,3 +240,9 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 3. Creating POST, PUT and PATCH Routes.
 4. Creating the DELETE Route.
 5. Build your own API for a Blog.
+
+# Lesson12 - Postgres SQL
+1. Introduction to Postgres SQL.
+2. Understand how to use keys, Postgres types and keywords.
+3. Use pgAdmin to CREATE a Table.
+4. READ data from a Postgres database.
