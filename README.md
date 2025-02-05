@@ -246,3 +246,11 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 2. Understand how to use keys, Postgres types and keywords.
 3. Use pgAdmin to CREATE a Table.
 4. READ data from a Postgres database.
+5. Query data using SELECT, WHERE and LIKE.
+6. UNIQUE and NOT NULL.
+7. INSERT and add Data.
+8. Travel Tracker Project.
+9. One to One Relationships & inner joins.
+10. One to Many Relationships.
+11. Many to Many Relationships & Aliases.
+12. The Family Travel Tracker.
