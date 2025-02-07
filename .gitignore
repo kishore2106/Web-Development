@@ -137,3 +137,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 Backend/9.1 Authentication Lv.1/solution.js
+Backend/9.3 Sessions and Cookies/.DS_Store
+*.DS_Store
+Backend/9.4 Environment Variables/.DS_Store
