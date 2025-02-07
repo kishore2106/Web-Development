@@ -266,5 +266,6 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     - [https://hackertyper.net/]
 4. Level3 - How to Salt Passwords for Improved Encyption.
 5. Level4 - Managing Cookies and Sessions.
+    - [https://www.passportjs.org/]
 6. Level5 - Hide your Secrets with Environment Variables.
 7. Set up your Google OAuth Credentials.
