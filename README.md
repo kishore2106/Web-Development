@@ -254,3 +254,18 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 10. One to Many Relationships.
 11. Many to Many Relationships & Aliases.
 12. The Family Travel Tracker.
+
+# Lesson13 - Authentication and Security - Handling Credentials & Designing a Secure Login
+1. Introduction to Authentication.
+2. Level1 - Registering Users with Email and Password.
+3. Level2 - Encryption and Hashing[https://cryptii.com/pipes/caesar-cipher][https://encode-decode.com/aes256-encrypt-online/].
+    - [https://plaintextoffenders.com/]
+    - [https://haveibeenpwned.com/]
+    - [https://en.wikipedia.org/wiki/List_of_the_most_common_passwords]
+    - [http://password-checker.online-domain-tools.com/]
+    - [https://hackertyper.net/]
+4. Level3 - How to Salt Passwords for Improved Encyption.
+5. Level4 - Managing Cookies and Sessions.
+    - [https://www.passportjs.org/]
+6. Level5 - Hide your Secrets with Environment Variables.
+7. Set up your Google OAuth Credentials.
