@@ -38,7 +38,6 @@ app.post("/register", async (req, res) => {
       res.send("Email already exists. Try loggin in.");
       } else {
         const result = await db.query("INSERT INTO users (email, password) VALUES ($1,$2)", [email, password]);
-        console.log(result);
         res.render("secrets.ejs");
       }
     } catch (err) {
@@ -51,7 +50,6 @@ app.post("/login", async (req, res) => {
   const password = req.body.password;
   try {
     const checkResult = await db.query("SELECT * FROM users WHERE email = $1", [email]);
-    console.log(checkResult.rows);
     if (checkResult.rows.length > 0){
       const user = checkResult.rows[0];
       const storedPassword = user.password;
