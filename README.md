@@ -254,3 +254,7 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 10. One to Many Relationships.
 11. Many to Many Relationships & Aliases.
 12. The Family Travel Tracker.
+
+# Lesson13 - Authentication and Security - Handling Credentials & Designing a Secure Login
+1. Introduction to Authentication.
+2. Registering Users with Email and Password.
