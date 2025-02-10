@@ -269,3 +269,21 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     - [https://www.passportjs.org/]
 6. Level5 - Hide your Secrets with Environment Variables.
 7. Set up your Google OAuth Credentials.
+
+# Lesson14 - ReactJS
+1. Introduction to ReatJS. [https://codesandbox.io/dashboard/recent]
+2. Introduction to JSX(JavaScript XML) and Babel(compiler)[https://babeljs.io/].
+3. JavaScript Expressions in JSX & ES6 Template Literals.
+4. JSX Attributes and Styling React Elements[https://www.w3schools.com/tags/ref_standardattributes.asp].
+5. Inline Styling for React Elements.
+    - [https://www.w3schools.com/cssref/index.php]
+    - [https://www.w3schools.com/cssref/pr_font_font-size.php]
+6. React Components.
+    - [https://github.com/airbnb/javascript/tree/master/react]
+7. JavaScript ES6 - Import, Export and Modules.
+    - [https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export]
+    - [https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en&pli=1]
+8. React Props.
+9. Mapping Data to Components.
+    - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl]
+    - [https://www.emojimeanings.net/list-smileys-people-whatsapp]
