@@ -287,3 +287,16 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 9. Mapping Data to Components.
     - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl]
     - [https://www.emojimeanings.net/list-smileys-people-whatsapp]
+10. JavaScript ES6 Map/Filter/Reduce.
+11. JavaScript ES6 Arrow Functions.
+12. React Conditional Rendering with teh ternary operator & And operator.
+13. State in React - Declarative vs. Imperative.
+14. React Hooks - useState.
+15. JavaScript ES6 Object & Array Destructuring.
+16. Event Handling in React.
+17. React Forms.
+18. Class Components vs Functional Components.
+19. Changing Complex State.
+20. JavaScript ES6 Spread Operator.
+21. Managing a Component Tree.
+22. Packages and Imports.
