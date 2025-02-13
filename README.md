@@ -288,15 +288,37 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl]
     - [https://www.emojimeanings.net/list-smileys-people-whatsapp]
 10. JavaScript ES6 Map/Filter/Reduce.
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring]
+    - [https://www.emojimeanings.net/list-smileys-people-whatsapp]
+    - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl]
 11. JavaScript ES6 Arrow Functions.
+    - [https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/]
 12. React Conditional Rendering with teh ternary operator & And operator.
+    - [https://en.wikipedia.org/wiki/Single-responsibility_principle]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator]
+    - [https://legacy.reactjs.org/docs/conditional-rendering.html#inline-if-with-logical--operator]
 13. State in React - Declarative vs. Imperative.
+    - [https://codesandbox.io/p/sandbox/introduction-to-state-completed-435yng?file=%2Fsrc%2Findex.js]
 14. React Hooks - useState.
+    - [https://legacy.reactjs.org/docs/hooks-reference.html#usestate]
 15. JavaScript ES6 Object & Array Destructuring.
 16. Event Handling in React.
+    - [https://www.w3schools.com/tags/ref_eventattributes.asp]
 17. React Forms.
+    - [https://legacy.reactjs.org/docs/forms.html#controlled-components]
 18. Class Components vs Functional Components.
+    - [https://legacy.reactjs.org/docs/events.html]
+    - [https://codesandbox.io/p/sandbox/class-components-vs-hooks-m2lzf?file=%2Fsrc%2Findex.js]
+    - [https://legacy.reactjs.org/docs/hooks-intro.html]
+    - [https://legacy.reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both]
 19. Changing Complex State.
 20. JavaScript ES6 Spread Operator.
+    - [https://www.w3schools.com/cssref/pr_text_text-decoration.php]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax]
 21. Managing a Component Tree.
 22. Packages and Imports.
