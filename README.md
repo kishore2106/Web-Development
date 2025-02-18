@@ -258,7 +258,8 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
 # Lesson13 - Authentication and Security - Handling Credentials & Designing a Secure Login
 1. Introduction to Authentication.
 2. Level1 - Registering Users with Email and Password.
-3. Level2 - Encryption and Hashing[https://cryptii.com/pipes/caesar-cipher][https://encode-decode.com/aes256-encrypt-online/].
+3. Level2 - Encryption and Hashing[https://cryptii.com/pipes/caesar-cipher]
+    - [https://encode-decode.com/aes256-encrypt-online/]
     - [https://plaintextoffenders.com/]
     - [https://haveibeenpwned.com/]
     - [https://en.wikipedia.org/wiki/List_of_the_most_common_passwords]
