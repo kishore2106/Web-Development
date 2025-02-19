@@ -1,0 +1,97 @@
+OS
+
+1. Turn-Around time = Burst-time + I/O + waiting time
+2. CPU time/total CPU time
+3. Long term Scheduler (process moved from HD to RAM) and short term scheduler (RAM to CPU) & Medium term Scheduler (RAM to HD)
+4. process and program
+5. Life Cycle of Process (7 states)	
+    - New State 	
+    - Ready State	
+    - Running State	
+    - Waiting Sate or Blocked State or I/O State	
+    - Termination State	
+    - Suspend Ready
+    - Suspend Wait or Suspend Blocked
+6. Process Attribute	
+    - process ID	
+    - Program counter (register)	
+    - Process State	
+    - General purpose Register	
+    - Priority	
+    - List of open files	
+    - List of open devices	
+    - Protection
+7. Scheduling, Preemption and Timestamp
+8. Degree of Multiprogramming
+9. Types of OS 	
+    - Batch OS	
+    - Multiprogramming OS (1 CPU) (concurrent processing)	
+    - Multiprocessing OS (more than 1 CPU) (parallel processing)
+10. PCB (Process Control Block)	
+    - Stack	
+    - Heap	
+    - Static and Global Variables	
+    - program
+11. Passive (program) and Active Entity (process)
+12. Types of Scheduler
+13. Context of a process (PCB + process attributes)
+14. Context Switching.
+15. Swapping - swap-in & swap-out
+16. Point in time vs Duration in time (Burst time + Turn around time + Waiting time + Response Time)
+17. Various times related to a process 	
+    - Arrival time	
+    - Burst time (execution time)	
+    - Completion time	
+    - Turn around time (completion time - arrival time) (Burst time + Waiting time + I/O time) (total time inside the RAM)	
+    - Waiting time	
+    - Response time	
+    - I/O time
+18. CPU Scheduling Algo	
+    - Preemptive 	
+    - Non PreemptiveNote 
+    - CPU scheduling algo are applied only to process which are in the Ready State.
+19. Shortest Job First Scheduling Algo (SJF)	
+    - Among the arrived process, process with the least burst time will be given preference.	
+    - Non Preemptive Algo	
+    - Priority based Algo
+20. Gantt Chart
+21. Schedule length = completion time of last process - arrival time of first process
+22. Throughput - number of process executed / schedule length
+23. SRTF (Shortest Remaining Time First Scheduling Algorithm) 	- Preemptive version of SJF.
+24. Response Time (waiting time of the process until it get CPU for the 1st time)Note - In any non-preemptive scheduling algorithm Response time = waiting time, But this need not be true for preemptive scheduling algo
+25. First Come First Serve (FCFS)	
+    - The process with the least arrival time	
+    - non-preemptive scheduling algo	
+    - It is not a priority based scheduling
+26. Starvation problemNote 
+    - Any priority based algo will suffer from Starvation
+27. Convoy Effect (A smaller process (process with very small execution time) waiting for one big process to get off (release))
+28. Throughput - No. of process executed in a unit time
+29. LJF (Longest Job First Scheduling Algorithm)	
+    - non preemptive	
+    - priority based algorithm	
+    - Starvation problem exists	
+    - Convoy effect problem exists	
+    - Throughput is very less	
+    - Practically very difficult to implement
+30. LRTF (Longest Remaining Time First Scheduling Algorithm)	
+    - preemptive	
+    - starvation problem exists.	
+    - convoy effect problem exists.	
+    - throughput is very less	
+    - practically difficult to implement
+31. Time Quantum (maximum allowable time a process can run without getting preempted)
+32. Round Robin Scheduling Algorithm (Time Quantum + FCFS)	
+    - it not priority based algo.	
+    - it works on the basis of a particular time quantum.		
+    - Uses Queue data structure	- very popular and used in most of the OS's today
+33. RR observations	- Has time quantum increases the context switching may decrease	
+    - Has time quantum increases the response time may increase
+34. RR Advantages and Limitations	 
+    Advantages	
+        - No starvation problem	
+        - No convoy-effect problem	
+        - Practically Implementable	
+        - Response time is also good	
+    Limitations	
+        - Throughput is good but not as good as SJF, SRTF
