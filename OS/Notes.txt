@@ -95,3 +95,40 @@ OS
         - Response time is also good	
     Limitations	
         - Throughput is good but not as good as SJF, SRTF
+35. Priority based Scheduling Algo	
+    - Mode: Both preemptive and non-preemptive
+36. SRTF with process requiring CPU and I/O time
+37. Advantages and Disadvantages of SJF	
+    Advantages		
+        - Throughput is High	
+    Disadvantages	
+        - Larger process may wait indefinitely or starve
+38. Highest Response Ratio Next Scheduling Algorithm (HRRN)	
+    - Mode: non-premptive	
+    - Response ratio = (w+b)/b		
+    - w: waiting time of a process so far		
+    - b: burst time39. Process State Diagram
+40. Dispatcher
+41. Basics of Binary Number System
+
+#Memory Allocation Techniques
+42. Basics of Memory Allocation
+43. Address space (collection of addresses)	
+    - physical address space (instruction address in the RAM)	
+    - logical address space (address of a process)44. Various methods used to read the process to main memory	
+    - Contigious Allocation (All the address of the logical address space is placed in a congitious in Phyisical address)		
+    - Fixed partitioning (Also called as static partitioning)		
+    - Variable partitioning (Also called as dynamic partitioning)	
+    - Non-Contigious Allocation45. Disadvantages of Fixed partitioning	
+    - Internal Fragmentation problem exists	
+    - Process size is limited by the size of the largest partition	
+    - Degree of Multiprogramming is limited by the number of partitions
+46. Rules of Fixed partition	
+    - a partition can hold only one process data	
+    - a process can be placed in only one partition and it cannot span across 2 or more partitions
+Note: No External Fragmentation problem in Fixed partitioning
+47. Variable Paritioning (Dynamic partitioning)	
+    - No Internal Fragmentation problem	
+    - Degree of Multiprogramming is not limited	
+    - Size of a process is not limited by size of largest partition rather it is limited by the size of RAM
+Note: Variable partitioning suffers from the problem of External Fragmentation (because of congitious allocation)
