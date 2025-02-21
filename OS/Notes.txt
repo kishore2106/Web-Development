@@ -1,4 +1,4 @@
-OS
+Operating System - Part I
 
 1. Turn-Around time = Burst-time + I/O + waiting time
 2. CPU time/total CPU time
