@@ -132,3 +132,13 @@ Note: No External Fragmentation problem in Fixed partitioning
     - Degree of Multiprogramming is not limited	
     - Size of a process is not limited by size of largest partition rather it is limited by the size of RAM
 Note: Variable partitioning suffers from the problem of External Fragmentation (because of congitious allocation)
+48. Memory Allocation Algorithm	
+    - First fit	
+    - Next fit	
+    - Best fit	
+    - Worst fit
+49. Binary Addressing Revisited	
+    - Byte Addressable System
+50. Solution for External Fragmentation	
+    - Compaction	
+    - Paging (Non Contigious Allocation)
