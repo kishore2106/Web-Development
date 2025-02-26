@@ -142,3 +142,26 @@ Note: Variable partitioning suffers from the problem of External Fragmentation (
 50. Solution for External Fragmentation	
     - Compaction	
     - Paging (Non Contigious Allocation)
+
+
+#OS PartII
+1. Paging (Non Contigious Allocation)	
+    - Suffers from internal Fragmentation (but very less only at 2 places that is the last page of the process and page table of a process)
+2. How CPU excecutes a process in Contigious Allocation
+3. Basics of Paging	
+    - Page Size	
+    - Frame Size (Fixed size blocks in RAM)
+Note: Frame Size and Page Size are always equal	
+    - Pages (Blocks of processes)	
+    - Frames (Blocks of RAM)	
+    - Page Table	
+    - Byte Addressable System (Every byte will have a unique address)
+Note: External Fragmentation is not possible in the Paging
+**3.Paging (revise)	    
+    - No. of Frames = PAS(Process Address Space) or RAM size / Frame size	
+    - No. of Pages = LAS(Logical Address Space) or Process size / Page size
+Note: Frage size and Page size are always equal 
+Note: Page table is called as Memory Management Unit	
+    - Page Table Size = No. of entries in the Pagetable * size of a single entry of PT
+4. Relation between LA, LAS and PA, PAS	
+5. Multilevel paging need (when the size of a page table is greater than the frame size)
