@@ -165,3 +165,22 @@ Note: Page table is called as Memory Management Unit
     - Page Table Size = No. of entries in the Pagetable * size of a single entry of PT
 4. Relation between LA, LAS and PA, PAS	
 5. Multilevel paging need (when the size of a page table is greater than the frame size)
+    - No. of entries in the page table = Page Size / size of Page Table Entry
+6. Multilevel Paging Problems
+
+**Important point to note    
+    - We always try to maintain pages of our process in the RAM. Why ? 
+    - Because if the byte which CPU is asking for is present in the RAM, it will take very less time for the CPU to fetch and execute. 
+    - But if the byte (byte will present in a page) which CPU is asking for, is not present in the RAM, 
+        we might have to move the page from hard disk to RAM and then CPU will fetch the byte from the RAM, 
+        which will take more time as accessing Hard disk is very very time consuming. 
+    - So if we can have the page which CPU will refer next in the RAM, 
+        then it will take very less time for the fetching by CPU. 
+    - But this is not possible always because of 2 reasons.
+        1) Which page will CPU refer next is unknown before, because we cannot know the future. 
+            Which means we dont know which page will CPU refer next as it is future.
+        2) RAM size is small compared to hard disk size. So we cannot have all the bytes of hard disk in the RAM.
+    - So what we do is, we predict (guess) which page will CPU refer next and place that page in the RAM. 
+    NOTE :This is just a guess which can also be wrong. (Just like predicting which team will win in tomorrow's game).
+    - Now if our guess is correct, page accessing time is less for the CPU for that byte.
+    - But if guess is wrong, then fetching that byte will take more time as we need to move the data from hard disk to RAM and then CPU will read from the RAM.
