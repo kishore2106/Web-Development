@@ -214,3 +214,13 @@ Note: Page table is called as Memory Management Unit
 9. Protection bits
 10. Advantage of Dirty bit field in Page Table entry
     - Dirty bits for a page in pagetable helps to aviod unnecessary writes to harddisk
+11. Page Table Entry Problems.
+
+#Virtual Memory
+12. Locality of Reference and Virtual Memory
+    - Principle of Locality: Says that at anytime a process will require only few pages and these set of pages will gradually change over time.
+    - Virtual Memory: We maintain only few pages of our process in the RAM. Such a memory is called as Virtual Memory. And the set of addresses (part of process)
+        which are inside the RAM is also called as Virtual Address Space.
+13. Advantages of Virtual Memory
+    - Degree of Multiprogramming is higher (then not using them)
+    - We will be able to excecute even process whose size is larger than the size of RAM. (This is not possible if we dont use virtual memory)
