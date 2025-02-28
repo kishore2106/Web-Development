@@ -184,3 +184,43 @@ Note: Page table is called as Memory Management Unit
     NOTE :This is just a guess which can also be wrong. (Just like predicting which team will win in tomorrow's game).
     - Now if our guess is correct, page accessing time is less for the CPU for that byte.
     - But if guess is wrong, then fetching that byte will take more time as we need to move the data from hard disk to RAM and then CPU will read from the RAM.
+
+#Page Table Entry
+7. Frame number field and Referenced bit
+    - Important Point: For every page of our proccess we maintain a pagatable entry. so, every Pagetable entry will describe its corresponding pages properties
+    - Fields in the Pagetable entry
+        - Page Frame No.
+            - This field holds the physical frame number where the page is stored in memory. 
+        - Referenced bit
+            - Also known as the Accessed bit — it indicates whether the page has been accessed/read recently.
+            - The OS can use this bit to implement page replacement algorithms (like LRU — Least Recently Used).
+        - Modified bit or Dirty bit
+            - This bit shows whether the page has been modified (written to) since it was loaded into memory.
+            - If a page is dirty, it must be written back to disk before it can be swapped out, ensuring data integrity.
+            - If not dirty, the page can be discarded without writing back to disk.
+        - Protection bit
+            - Controls access permissions for the page — it dictates what type of access is allowed:
+                - Read-only
+                - Read-Write
+                - Execute
+            - This prevents unauthorized processes from altering or executing certain pages.
+        - Present/Absent bit
+            - Also called the valid bit, this indicates whether the page is currently in physical memory (RAM).
+            - 1 (Present/Valid): The page is in memory, and its PFN is valid.
+            - 0 (Absent/Invalid): The page is not in memory — it may be on disk (swap space) or unallocated.
+            - If absent, a page fault occurs when the process tries to access the page.
+    - Page Replacement (replacing lower priority page from the RAM and replace with higher priority page from the hard disk) (0  or 1)
+8. Present/ Absent bit and Dirty bit
+9. Protection bits
+10. Advantage of Dirty bit field in Page Table entry
+    - Dirty bits for a page in pagetable helps to aviod unnecessary writes to harddisk
+11. Page Table Entry Problems.
+
+#Virtual Memory
+12. Locality of Reference and Virtual Memory
+    - Principle of Locality: Says that at anytime a process will require only few pages and these set of pages will gradually change over time.
+    - Virtual Memory: We maintain only few pages of our process in the RAM. Such a memory is called as Virtual Memory. And the set of addresses (part of process)
+        which are inside the RAM is also called as Virtual Address Space.
+13. Advantages of Virtual Memory
+    - Degree of Multiprogramming is higher (then not using them)
+    - We will be able to excecute even process whose size is larger than the size of RAM. (This is not possible if we dont use virtual memory)
