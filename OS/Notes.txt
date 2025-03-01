@@ -224,3 +224,20 @@ Note: Page table is called as Memory Management Unit
 13. Advantages of Virtual Memory
     - Degree of Multiprogramming is higher (then not using them)
     - We will be able to excecute even process whose size is larger than the size of RAM. (This is not possible if we dont use virtual memory)
+
+#Average Memory Access Time (AMAT)
+14. Page Hit and Page fault
+    - Page Hit: If the page containing the byte or word, which CPU wants is present inside the RAM is called as Page Hit
+    - Page Fault/Miss: If the page containing the byte or word, which CPU wants is not present inside the RAM is called as Page Fault/Miss.
+15. Average/Effective Memory Access Time
+16. Another way of looking at AMAT
+17. Relation between Number of levels of Paging and Number of RAM Access
+
+#Translation Lookaside Buffer (TLB)
+18. Need for TLB
+19. TLB Explination
+    - TLB is a small cache of page table entries. It is used to speed up the process of page table lookups.
+20. Computing TLB Hit Ratio
+21. Computing TLB Access Time
+22. Computing RAM Access Time
+23. Problems on TLB
