@@ -224,3 +224,11 @@ Note: Page table is called as Memory Management Unit
 13. Advantages of Virtual Memory
     - Degree of Multiprogramming is higher (then not using them)
     - We will be able to excecute even process whose size is larger than the size of RAM. (This is not possible if we dont use virtual memory)
+
+#Average Memory Access Time (AMAT)
+14. Page Hit and Page fault
+    - Page Hit: If the page containing the byte or word, which CPU wants is present inside the RAM is called as Page Hit
+    - Page Fault/Miss: If the page containing the byte or word, which CPU wants is not present inside the RAM is called as Page Fault/Miss.
+15. Average/Effective Memory Access Time
+16. Another way of looking at AMAT
+17. Relation between Number of levels of Paging and Number of RAM Access
