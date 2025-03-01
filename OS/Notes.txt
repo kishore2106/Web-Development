@@ -232,3 +232,12 @@ Note: Page table is called as Memory Management Unit
 15. Average/Effective Memory Access Time
 16. Another way of looking at AMAT
 17. Relation between Number of levels of Paging and Number of RAM Access
+
+#Translation Lookaside Buffer (TLB)
+18. Need for TLB
+19. TLB Explination
+    - TLB is a small cache of page table entries. It is used to speed up the process of page table lookups.
+20. Computing TLB Hit Ratio
+21. Computing TLB Access Time
+22. Computing RAM Access Time
+23. Problems on TLB
