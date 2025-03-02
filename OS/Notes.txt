@@ -241,3 +241,13 @@ Note: Page table is called as Memory Management Unit
 21. Computing TLB Access Time
 22. Computing RAM Access Time
 23. Problems on TLB
+
+#Frame Allocation
+24. Need for Frame Allocation for a process
+    - Thrashing: When a process is constantly being swapped in and out of memory [due to page fault], it is said to be thrashing.
+25. Frame Allocation methods
+    - Equal Allocation: Allocate equal number of available frames to each process.
+    - Allocation based on the size of process
+26. Difference between Static and Dynamic
+27. Dynamic Frame Allocation
+28. Starvation Problem Resolved
