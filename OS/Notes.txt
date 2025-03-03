@@ -241,3 +241,34 @@ Note: Page table is called as Memory Management Unit
 21. Computing TLB Access Time
 22. Computing RAM Access Time
 23. Problems on TLB
+
+#Frame Allocation 
+24. Need for Frame Allocation for a process
+    - Thrashing- A situation where the process is constantly being swapped in and out of memory, resulting in poor performance.
+25. Frame Allocation methods
+26. Difference between Static and Dynamic
+    - Static Allocation
+        - Equal Allocation
+        - Allocation based on process size
+    - Dynamic Allocation
+        - Starvation problem may occur
+27. Dynamic Frame Allocation
+28. Starvation Problem Revisited
+
+#Page Replacement algorithms
+29. Local vs Global Page Replacement
+    - Local Page Replacement: The page replacement is done on the basis of the pages of a process.
+    - Global Page Replacement: The page replacement is done on the basis of the pages of all the processes.
+Note: Local Page Replacement Algorithm is mostly used
+30. Demand Paging- We will not load any page of a process until CPU requests for a byte in that page
+31. LRU (Least Recently Used) Page Replacement Algorithm
+32. Page Reference String- A sequence of page numbers that a process accesses in a particular order
+33. FIFO (First In First Out) Page Replacement Algorithm
+34. Optimal Page Replacement Algorithm (Best Algo which gives the least number of page faults)
+    - Disadvantage: Its implementation is not practically possible because we can't know the future page references.
+35. MRU (Most Recently Used) Page Replacement Algorithm
+36. LIFO (Last In First Out) Page Replacement Algorithm
+37. Page Fault Rate- The number of page faults / Total number of references
+Note - If we use Demand Paging and if number of distinct pages in page reference string n then no: of pagefaults >= n
+     - If we use Demand Paging and if all the pages in page reference string is distinct, then number of pagefaults = m, 
+        where m is the number of pages in page reference string
