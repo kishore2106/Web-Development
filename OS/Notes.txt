@@ -247,5 +247,10 @@ Note: Page table is called as Memory Management Unit
     - Thrashing- A situation where the process is constantly being swapped in and out of memory, resulting in poor performance.
 25. Frame Allocation methods
 26. Difference between Static and Dynamic
+    - Static Allocation
+        - Equal Allocation
+        - Allocation based on process size
+    - Dynamic Allocation
+        - Starvation problem may occur
 27. Dynamic Frame Allocation
 28. Starvation Problem Revisited
