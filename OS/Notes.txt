@@ -272,3 +272,4 @@ Note: Local Page Replacement Algorithm is mostly used
 Note - If we use Demand Paging and if number of distinct pages in page reference string n then no: of pagefaults >= n
      - If we use Demand Paging and if all the pages in page reference string is distinct, then number of pagefaults = m, 
         where m is the number of pages in page reference string
+38. Advanced Problems on Page Replacement Algorithm
