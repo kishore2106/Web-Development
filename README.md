@@ -345,3 +345,14 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     n is the number of times that interest is compounded per year.
     t is the time the money is invested for in years.
 Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
+
+# Lesson16 - Deploying to the ICP Live Blockchain
+1. Cycles and the ICP Tokens.
+    - Coin Base: Buying TCP Tokens
+    - NNS (Network Nervous System): The Internet Computer network runs under the control of the Network Nervous System, which adopts proposals and automatically
+        executes corresponding actions. Anyone can submit a propsal, which are decided as the result of voting acticity by neurons.
+    - Difinity Developer Grant Program
+    - Acting as a Data Center
+2. Claim Free Cycles from Dfinity.
+3. Deploy to the ICP Network.
+4. How to Deploy a Static Website onto the ICP Blockchain for Hosting.
