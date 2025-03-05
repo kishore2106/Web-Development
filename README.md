@@ -323,3 +323,36 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax]
 21. Managing a Component Tree.
 22. Packages and Imports.
+
+# Lesson15 - Web3 Decentralised App (DApp) Development with the Internet Computer
+1. Introduction to Web3 and DApps.
+2. How Does the Blockchain acatually work.
+3. What are DApps and how do you develop them.
+4. Introduction to the Internet Computer (ICP).
+5. Introduction to Motoko Language.
+6. Motoko Functions and the Candid User Interface.
+7. Motoko Conditionals and Type Annotations.
+8. Query vs Update Methods
+    Query Methods: Are comparitavely faster and used to retrieve the data instead of modifying the data
+    Update Methods: Are used to modify the data.
+9. Orthogonal Persistance.
+    - "stable keyword" can be used to persist the data.
+10. Tracking Time and Calculating Compound.
+    A = P (1 + (r/n))^nt
+    Where A is the amount of money accumulated after n years, including interest.
+    P is the principal amount.
+    r is the annual interest rate (decimal).
+    n is the number of times that interest is compounded per year.
+    t is the time the money is invested for in years.
+Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
+
+# Lesson16 - Deploying to the ICP Live Blockchain
+1. Cycles and the ICP Tokens.
+    - Coin Base: Buying TCP Tokens
+    - NNS (Network Nervous System): The Internet Computer network runs under the control of the Network Nervous System, which adopts proposals and automatically
+        executes corresponding actions. Anyone can submit a propsal, which are decided as the result of voting acticity by neurons.
+    - Difinity Developer Grant Program
+    - Acting as a Data Center
+2. Claim Free Cycles from Dfinity.
+3. Deploy to the ICP Network.
+4. How to Deploy a Static Website onto the ICP Blockchain for Hosting.
