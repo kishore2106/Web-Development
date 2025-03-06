@@ -1,12 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
+createRoot(document.getElementById("root")).render(
   <div>
     <h1>Hello World!</h1>
     <p>This is a paragraph.</p>
-  </div>,
-  document.getElementById("root")
+  </div>
 );
 
 // If you're running this locally in VS Code use the commands:
