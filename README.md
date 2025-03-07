@@ -289,6 +289,11 @@ Important links - (https://github.com/rwaldron/idiomatic.js)
     - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl]
     - [https://www.emojimeanings.net/list-smileys-people-whatsapp]
 10. JavaScript ES6 Map/Filter/Reduce.
+    - Map -Create a new array by doing something with each item in an array.
+    - Filter - Create a new array by keeping the items that return true.
+    - Reduce - Accumulate a value by doing something to each item in an array.
+    - Find - find the first item that matches from an array.
+    - FindIndex - find the index of the first item that matches.
     - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter]
     - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map]
     - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce]
