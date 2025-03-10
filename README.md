@@ -361,3 +361,9 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 2. Claim Free Cycles from Dfinity.
 3. Deploy to the ICP Network.
 4. How to Deploy a Static Website onto the ICP Blockchain for Hosting.
+
+# Lesson17 - Building DApps and ICP with React Frontend
+1. How to Configure a DFX Created Project to use React.
+2. Storing Data on a Canister.
+3. Retreving Data from a Canister.
+4. Deleting Data from a Canister.
