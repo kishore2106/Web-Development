@@ -361,3 +361,22 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 2. Claim Free Cycles from Dfinity.
 3. Deploy to the ICP Network.
 4. How to Deploy a Static Website onto the ICP Blockchain for Hosting.
+
+# Lesson17 - Building DApps and ICP with React Frontend
+1. How to Configure a DFX Created Project to use React.
+2. Storing Data on a Canister.
+3. Retreving Data from a Canister.
+4. Deleting Data from a Canister.
+
+# Lesson18 - Create Your Own Crypto Token
+1. Tokens and Coins
+2. Download and Configure the Skeleton Project
+3. Using Motoko Hashmaps to Store Token Balances
+4. Showing the User's Token Balance on the Frontend
+5. Creating the Faucet Functionality Using the Shared Keyword
+6. Creating the Transfer Functionality
+7. Using the Transfer Functionality in the Faucet
+8. Persisting Non-Stable Types Using the Pre and Postupgrade Methods
+9. What is the internet identity
+10. Authenticating with the Internet Identity
+11. Live Deployment to Test Internet Identity Authentication
