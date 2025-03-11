@@ -370,6 +370,8 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 
 # Lesson18 - Create Your Own Crypto Token
 1. Tokens and Coins
+    - Coins: Coins are native digital assets of a specific blockchain.
+    - Tokens: Tokens are digital assets that are built on top of a blockchain. They run on their own blockchain.
 2. Download and Configure the Skeleton Project
 3. Using Motoko Hashmaps to Store Token Balances
 4. Showing the User's Token Balance on the Frontend
