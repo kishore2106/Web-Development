@@ -373,6 +373,7 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
     - Coins: Coins are native digital assets of a specific blockchain.
     - Tokens: Tokens are digital assets that are built on top of a blockchain. They run on their own blockchain.
 2. Download and Configure the Skeleton Project
+    - [https://curve.fi/dex/ethereum/pools/]
 3. Using Motoko Hashmaps to Store Token Balances
 4. Showing the User's Token Balance on the Frontend
 5. Creating the Faucet Functionality Using the Shared Keyword
@@ -382,3 +383,22 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 9. What is the internet identity
 10. Authenticating with the Internet Identity
 11. Live Deployment to Test Internet Identity Authentication
+
+# Lesson18 - Minting NFTs and Building an NFT Marketplace like OpenSea
+1. A Website to Mint, Buy and Sell NFTs
+    - [https://opensea.io/]
+    - [https://etherscan.io/address/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d]
+    - [https://ipfs.tech/]
+    - [https://www.pixilart.com/]
+2. Minting NFTs
+    - [https://internetcomputer.org/docs/motoko/main/writing-motoko/actor-classes]
+3. Viewing the NFT on the Frontend
+    - [https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL_static]
+    - [https://developer.mozilla.org/en-US/docs/Web/API/Blob/Blob]
+    - [https://legacy.reactjs.org/docs/hooks-effect.html]
+4. Enabling the Minting Fuctionality on the Frontend
+5. Displaying Owned NFTs Using the React Router
+6. Listing NFTs for Sale
+7. Styling the Listed NFTs
+8. Creating the "Discover" Page
+9. Buying NFTs
