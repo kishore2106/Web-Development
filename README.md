@@ -397,7 +397,12 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
     - [https://developer.mozilla.org/en-US/docs/Web/API/Blob/Blob]
     - [https://legacy.reactjs.org/docs/hooks-effect.html]
 4. Enabling the Minting Fuctionality on the Frontend
+    - [https://react-hook-form.com/]
+    - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer]
+    - [https://developer.mozilla.org/en-US/docs/Web/API/Blob/arrayBuffer]
+    - [https://internetcomputer.org/docs/motoko/main/base/ExperimentalCycles]
 5. Displaying Owned NFTs Using the React Router
+    - [https://internetcomputer.org/docs/current/motoko/main/base/Option/]
 6. Listing NFTs for Sale
 7. Styling the Listed NFTs
 8. Creating the "Discover" Page
