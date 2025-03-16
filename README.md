@@ -407,5 +407,6 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
     - [https://erxue-5aaaa-aaaab-qaagq-cai.raw.ic0.app/agent/interfaces/Agent.html#rootKey]
     - [https://internetcomputer.org/docs/motoko/main/base/Principal]
 7. Styling the Listed NFTs
+    - [https://internetcomputer.org/docs/motoko/main/base/Principal]
 8. Creating the "Discover" Page
 9. Buying NFTs
