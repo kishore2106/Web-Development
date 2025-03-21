@@ -410,3 +410,6 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
     - [https://internetcomputer.org/docs/motoko/main/base/Principal]
 8. Creating the "Discover" Page
 9. Buying NFTs
+    - [https://dfinity.org/grants/]
+    - [https://internetcomputer.org/docs/motoko/main/base/HashMap]
+    - [https://internetcomputer.org/docs/motoko/main/base/List]
