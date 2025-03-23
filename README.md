@@ -375,8 +375,13 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 2. Download and Configure the Skeleton Project
     - [https://curve.fi/dex/ethereum/pools/]
 3. Using Motoko Hashmaps to Store Token Balances
+    - [https://internetcomputer.org/docs/motoko/main/base/Principal] 
+    - [https://internetcomputer.org/docs/motoko/main/base/HashMap] 
+    - [https://internetcomputer.org/docs/motoko/main/base/Option] 
 4. Showing the User's Token Balance on the Frontend
 5. Creating the Faucet Functionality Using the Shared Keyword
+    - [https://internetcomputer.org/docs/motoko/main/writing-motoko/sharing#the-shared-keyword]
+    - [https://internetcomputer.org/docs/motoko/main/writing-motoko/caller-id]
 6. Creating the Transfer Functionality
 7. Using the Transfer Functionality in the Faucet
 8. Persisting Non-Stable Types Using the Pre and Postupgrade Methods
@@ -384,7 +389,7 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 10. Authenticating with the Internet Identity
 11. Live Deployment to Test Internet Identity Authentication
 
-# Lesson18 - Minting NFTs and Building an NFT Marketplace like OpenSea
+# Lesson19 - Minting NFTs and Building an NFT Marketplace like OpenSea
 1. A Website to Mint, Buy and Sell NFTs
     - [https://opensea.io/]
     - [https://etherscan.io/address/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d]
