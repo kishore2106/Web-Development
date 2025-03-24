@@ -385,7 +385,12 @@ Free Logo Maker Tool: [https://www.namecheap.com/logo-maker/]
 6. Creating the Transfer Functionality
 7. Using the Transfer Functionality in the Faucet
 8. Persisting Non-Stable Types Using the Pre and Postupgrade Methods
+    - [https://internetcomputer.org/docs/motoko/main/canister-maintenance/upgrades]
+    - [https://internetcomputer.org/docs/motoko/main/base/Iter]
+    - [https://internetcomputer.org/docs/motoko/main/base/Array]
+    - [https://internetcomputer.org/docs/motoko/main/base/HashMap]
 9. What is the internet identity
+    - [https://www.youtube.com/watch?v=oxEr8UzGeBo]
 10. Authenticating with the Internet Identity
 11. Live Deployment to Test Internet Identity Authentication
 
