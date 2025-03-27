@@ -140,3 +140,4 @@ dist
 *solution.js
 Backend/9.6 Secret Project/solution-queries.sql
 *package-lock.json
+*.exe
