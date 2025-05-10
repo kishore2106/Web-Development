@@ -1,7 +1,7 @@
 Operating System - Part I
 
 1. Turn-Around time = Burst-time + I/O + waiting time
-2. CPU time/total CPU time
+2. CPU Efficiency = CPU time/total CPU time
 3. Long term Scheduler (process moved from HD to RAM) and short term scheduler (RAM to CPU) & Medium term Scheduler (RAM to HD)
 4. process and program
 5. Life Cycle of Process (7 states)	
@@ -107,7 +107,8 @@ Operating System - Part I
     - Mode: non-premptive	
     - Response ratio = (w+b)/b		
     - w: waiting time of a process so far		
-    - b: burst time39. Process State Diagram
+    - b: burst time
+39. Process State Diagram
 40. Dispatcher
 41. Basics of Binary Number System
 
@@ -115,11 +116,13 @@ Operating System - Part I
 42. Basics of Memory Allocation
 43. Address space (collection of addresses)	
     - physical address space (instruction address in the RAM)	
-    - logical address space (address of a process)44. Various methods used to read the process to main memory	
+    - logical address space (address of a process)
+44. Various methods used to read the process to main memory	
     - Contigious Allocation (All the address of the logical address space is placed in a congitious in Phyisical address)		
     - Fixed partitioning (Also called as static partitioning)		
     - Variable partitioning (Also called as dynamic partitioning)	
-    - Non-Contigious Allocation45. Disadvantages of Fixed partitioning	
+    - Non-Contigious Allocation
+45. Disadvantages of Fixed partitioning	
     - Internal Fragmentation problem exists	
     - Process size is limited by the size of the largest partition	
     - Degree of Multiprogramming is limited by the number of partitions
